@@ -1,0 +1,33 @@
+REACT Conceptos básicos:
+
+COMPONENTE: parte de la interfáz de usuario que es independiente y reusable.
+
+    a.COMPONENTE FUNCIONAL: Función de JAVASCRIPT/ES6 que retorna un elemento de React (JSX). Características: -Debe retornar un elemento de React (JSX).
+    -Debe comenzar con una letra mayúscula.
+    -Puede recibir valores si es necesario.
+
+    function Saludo(props){
+        return <h1>¡ Hola,{props.nombre}!</h1>;
+    }
+
+    PROPS: argumentos que puede recibir un componente de Reac. Los proos sólo pueden ser enviados de "padre a hijo".
+
+    b.COMPONENTE CLASE: Clase de ES6 que retorna un elemento JSX. Características:
+    -Debe extender React.Component
+    -Debe tener un método render() para retornar un elemento JSX.
+    -Puede recibir valores si es necesario.
+
+    class Saludo extends React.Component{
+        render(){
+            return <h1>¡ Hola,{this.props.nombre}!</h1>;
+        }
+    }
+
+ESTADO: representación en JAVASCRIPT del conjunto de propiedades de un componente y sus valores actuales.
+    HOOK: Función especial que te permite trabajar con estados en componentes funcionales y otros aspectos de React. Sin escribir un componente de clase. Esto nos permite escribir código mucho más conciso y fácil de entender.
+
+EVENT LISTENER: Función en JAVASCRIPT que es ejecutada cuando ocurre un evento especifico.
+    
+
+
+
