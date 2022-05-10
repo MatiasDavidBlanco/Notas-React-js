@@ -10,7 +10,7 @@ COMPONENTE: parte de la interfáz de usuario que es independiente y reusable.
         return <h1>¡ Hola,{props.nombre}!</h1>;
     }
 
-    PROPS: argumentos que puede recibir un componente de Reac. Los proos sólo pueden ser enviados de "padre a hijo".
+    PROPS: argumentos que puede recibir un componente de Reac. Las props sólo pueden ser enviadas de "padre a hijo".
 
     b.COMPONENTE CLASE: Clase de ES6 que retorna un elemento JSX. Características:
     -Debe extender React.Component
