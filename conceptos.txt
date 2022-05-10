@@ -10,7 +10,7 @@ COMPONENTE: parte de la interfáz de usuario que es independiente y reusable.
         return <h1>¡ Hola,{props.nombre}!</h1>;
     }
 
-    PROPS: argumentos que puede recibir un componente de Reac. Las props sólo pueden ser enviadas de "padre a hijo".
+    PROPS: argumentos que puede recibir un componente de React. Las props sólo pueden ser enviadas de "padre a hijo".
 
     b.COMPONENTE CLASE: Clase de ES6 que retorna un elemento JSX. Características:
     -Debe extender React.Component
@@ -27,7 +27,11 @@ ESTADO: representación en JAVASCRIPT del conjunto de propiedades de un componen
     HOOK: Función especial que te permite trabajar con estados en componentes funcionales y otros aspectos de React. Sin escribir un componente de clase. Esto nos permite escribir código mucho más conciso y fácil de entender.
 
 EVENT LISTENER: Función en JAVASCRIPT que es ejecutada cuando ocurre un evento especifico.
-    
+
+
+Otros conceptos:
+
+Añadir comentarios en React= {/* */}
 
 
 
