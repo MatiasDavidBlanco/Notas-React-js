@@ -28,10 +28,51 @@ ESTADO: representación en JAVASCRIPT del conjunto de propiedades de un componen
 
 EVENT LISTENER: Función en JAVASCRIPT que es ejecutada cuando ocurre un evento especifico.
 
+JSX: Extensión de React para la sintaxis de JAVASCRIPT. Nos permite describir en JAVASCRIPT como se verán los componentes usando una estructura similar al HTML.
+    Ventajas de usar JSX: ( JSX ES OPCIONAL)
+        -Estructura más fácil de visualizar
+        -Errores y advertencias más útiles
+    Ejemplo de sintaxis JSX: const elemento= <h1>¡Hola mundo!</h1>
+        const elemento es JAVASCRIPT
+        <h1>¡Hola mundo!</h1> es HTML
+    ¿Qué es un ELEMENTO? Unidades más pequeñas en React. Definen lo que se ve en la pantalla. Con JSX puedes crear y usar cualquier elemento HTML. En JSX los elementos HTML se representan con etiquetas en letras minusculas. Puedes agragar ATRIBUTOS a tus elementos en JSX para especificar ciertas Características. Pero algunos atributos se escriben de forma distinta si los comparamos con HTML o CSS.
+        Ejemplo:
+        HTML:  <h1 class="titulo-azul">¡Hola mundo!</h1>
+        JSX:   <h1 className="titulo-azul">¡Hola mundo!</h1>
+
+        CSS: background-image
+        JSX: backgroundImage
+
+        *JSX usa camelCase.
+
+    ¿Cuál es la diferencia entre un componente y un elemento en React?
+        Los componentes en React están "hechos" de elementos. Los componentes son más complejos y los elementos son los bloques fundamentales. Los elementos comienzan con minuscula y los componentes con mayúscula.
+
+    REACT DOM: Paquete que facilita la interacción y actualización del DOM en aplicaciones REACT. 
+    DOM: Document Objet Model.  representación en el navegador de todos los elementos que conforman una página o aplicación web.
+
+    SELF-CLOSING-TAGS (Etiquetas que se cierran solas) Elemento que sólo posee una etiqueta de apertura ya que no contiene texto u otros elementos. (No tiene contenido) Ejemplo: <h1 className="titulo-azul" />
+
+    JAVASCRIPT EN JSX: Cada vez que aparece algo entre {} es código JAVASCRIPT.
+        ej:
+        let adjetivo="interesante";
+        <p> React es {adjetivo} </p>
+        
+        ej:
+        <p> El resultado es: {5*6} </p>
+
+        ej:
+        let nombre="Gino";
+        <p> Su nombre es {nombre.toUpperCase()} </p>
 
 Otros conceptos:
 
 Añadir comentarios en React= {/* */}
+
+Sintaxis para llamar la API de ReactDom:  ReactDOM.render(componentToRender, targetNode). 
+
+-El primer argumento es el componente de React que deseas renderizar. 
+-El segundo argumento es el nodo del DOM en el que deseas renderizar ese componente.
 
 
 
