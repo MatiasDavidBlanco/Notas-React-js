@@ -23,8 +23,13 @@ COMPONENTE: parte de la interfáz de usuario que es independiente y reusable.
         }
     }
 
-ESTADO: representación en JAVASCRIPT del conjunto de propiedades de un componente y sus valores actuales.
-    HOOK: Función especial que te permite trabajar con estados en componentes funcionales y otros aspectos de React. Sin escribir un componente de clase. Esto nos permite escribir código mucho más conciso y fácil de entender.
+ESTADO: representación en JAVASCRIPT del conjunto de propiedades de un componente y sus valores actuales.El estado consiste en cualquier dato que tu aplicación necesite conocer y que pueda cambiar con el tiempo. Quieres que tus aplicaciones respondan a los cambios de estado y presenten una interfaz de usuario actualizada cuando sea necesario. React ofrece una buena solución para el manejo de estado de aplicaciones web modernas. Creas un estado en un componente de React declarando una propiedad state en la clase del componente en su constructor. Esto inicializa el componente con state cuando se crea. La propiedad state debe establecerse en un object de JavaScript. Declararlo se ve así:
+
+    this.state = {
+
+    }
+
+HOOK: Función especial que te permite trabajar con estados en componentes funcionales y otros aspectos de React. Sin escribir un componente de clase. Esto nos permite escribir código mucho más conciso y fácil de entender.
 
 EVENT LISTENER: Función en JAVASCRIPT que es ejecutada cuando ocurre un evento especifico.
 
