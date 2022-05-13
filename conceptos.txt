@@ -76,6 +76,9 @@ JSX: Extensión de React para la sintaxis de JAVASCRIPT. Nos permite describir e
     Así se añanden en React: <div style={{color: "yellow", fontSize: 16}}>Mellow Yellow</div>
     Regla importante: cualquier propiedad de estilo que usa guion en CSS se escribe usando camel case en JSX. Ej: font-size se escribe fontSize
 
+    OPERADORES TERNARIOS EN REACT: Sinmtaxis: condition ? expressionIfTrue : expressionIfFalse;
+    Estos son muy importantes en React porque permiten implementar lógica condicional dentro de JSX. 
+
 Otros conceptos:
 
 Añadir comentarios en React= {/* */}
