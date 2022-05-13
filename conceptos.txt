@@ -70,6 +70,12 @@ JSX: Extensión de React para la sintaxis de JAVASCRIPT. Nos permite describir e
         let nombre="Gino";
         <p> Su nombre es {nombre.toUpperCase()} </p>
 
+    ESTILOS EN REACT:
+
+    Así se añadían estilos en línea en HTML: <div style="color: yellow; font-size: 16px">Mellow Yellow</div>
+    Así se añanden en React: <div style={{color: "yellow", fontSize: 16}}>Mellow Yellow</div>
+    Regla importante: cualquier propiedad de estilo que usa guion en CSS se escribe usando camel case en JSX. Ej: font-size se escribe fontSize
+
 Otros conceptos:
 
 Añadir comentarios en React= {/* */}
